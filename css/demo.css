@@ -1,0 +1,60 @@
+.tabbed-content {
+  display: inline-block;
+  width: 50%;
+}
+.tabbed-content .tabs {
+  margin: 0;
+  padding: 0;
+}
+.tabbed-content .tabs li {
+  float: left;
+}
+.tabbed-content .tabs li a {
+  display: block;
+  background: #f0f0f0;
+  color: #999;
+  padding: 1em;
+  margin: 0 0 -1px -1px;
+  border: 1px solid #ccc;
+}
+.tabbed-content .tabs li a:hover {
+  background: #ebebeb;
+}
+.tabbed-content .tabs li:nth-of-type(1) a {
+  margin-left: 0;
+  border-top-left-radius: 3px;
+}
+.tabbed-content .tabs li:nth-last-of-type(1) a {
+  border-top-right-radius: 3px;
+}
+.tabbed-content .tabs .active a {
+  background: #fff;
+  color: #555;
+  border-bottom: 1px solid #fff;
+  cursor: default;
+}
+.tabbed-content .tabs .active a:hover {
+  background: #fff;
+}
+.tabbed-content .content {
+  float: left;
+  position: relative;
+  background: #fff;
+  padding: 20px 30px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  border-top-left-radius: 0;
+  z-index: -1;
+}
+.tabbed-content .content h2 {
+  float: left;
+  padding: 0 0 20px;
+  width: 100%;
+  line-height: 1;
+}
+.tabbed-content .content section {
+  display: none;
+}
+.tabbed-content .content .active {
+  display: block;
+}
