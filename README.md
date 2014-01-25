@@ -7,4 +7,6 @@ TabbedNavigation is a simple widget that uses jQuery to switch between different
 
 [View Demo](http://demo.drupavia.com/tabbed-navigation)
 
-[© Drupavia 2014](http://drupavia.com) | [License](http://github.com/Drupavia/TabbedNavigation/blob/master/LICENSE)
+[License](http://github.com/Drupavia/TabbedNavigation/blob/master/LICENSE)
+
+[© Drupavia 2014](http://drupavia.com)
